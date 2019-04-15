@@ -122,7 +122,7 @@ header {
   background-size: cover;
   -o-background-size: cover;
   background-position: center;
-  background-image: url("../img/parka_background.png");
+  background-image: url("../img/parka-background.png");
   text-align: center;
   color: white; }
   header .header-content {
