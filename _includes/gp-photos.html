@@ -1,0 +1,31 @@
+<section class="no-padding" id="photos">
+    <div class="container-fluid">
+        <div class="row">
+                <div class="col-lg-8 col-lg-offset-2 text-center">
+                    <h2 class="section-heading">Photos and video</h2>
+                    <br>
+                </div>
+            </div>
+        <div class = "row">
+            <div class="flexslider">
+                <ul class="slides">
+                    <li>
+                        <img src="img/Parka_Background.png">
+                        <p class="flex-caption text-faded">TEST</p>
+                    </li>
+                    <li>
+                        <iframe id="player_1" src="https://player.vimeo.com/video/30887506?api=1&player_id=player_1" width="500" height="281" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+                    </li>
+                    <!-- {% for page in site.categories.blog %}
+                    <li>
+                        <a href="{{ site.url}}{{ page.permalink }}">
+                            <img src="{{ page.image-slider }}">
+                            <p class="flex-caption">{{ page.excerpt }}</p>
+                        </a>
+                    </li>
+                    {% endfor %} -->
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
